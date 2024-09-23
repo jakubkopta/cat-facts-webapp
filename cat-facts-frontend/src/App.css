@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+}
+
+.App {
+    background-color: #a4a4a4;
+    text-align: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    cursor: default;
+}

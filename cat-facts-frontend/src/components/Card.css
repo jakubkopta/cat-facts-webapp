@@ -1,0 +1,48 @@
+.card {
+    border: 2px solid black;
+    border-radius: 16px;
+    padding: 16px;
+    margin: 10px;
+    text-align: center;
+    color: black;
+    background-color: #ede9e8;
+    box-shadow: 0 2px 4px black;
+    height: 30vh;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.5s ease-in-out;
+}
+
+.author.hidden {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.author {
+    font-style: italic;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.fact.hidden {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.fact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    margin: 10px;
+    padding: 16px;
+    border: 3px solid black;
+    border-radius: 16px;
+    height: 65%;
+    overflow: auto;
+    word-break: break-all;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
